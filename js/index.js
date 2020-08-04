@@ -20,7 +20,7 @@ const startMeeting = () => {
 
 const zoomMtgInit = meetingConfig => {
   ZoomMtg.init({
-    leaveUrl: `http://localhost:9999/close.html`,
+    leaveUrl: `https://localhost:9999/close.html`,
     screenShare: false,
     success: res => {
       console.log("init success");
